@@ -1,0 +1,36 @@
+.partners{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 30px;
+    align-items: center;
+    gap: 2em;
+    justify-content: center;
+    justify-self: center;
+    background: #F8F8F8;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.partners a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1080px){
+  .partners{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+}
+@media (max-width: 800px){
+  .partners{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    .centr{
+      grid-column: 1/3;
+    }
+  }
+  
+
+}

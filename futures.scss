@@ -1,0 +1,67 @@
+.futures {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #95e1d3;
+
+  .futures__conteiner {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .futures__block {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #ffffff;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    height: 100%;
+    padding: 8%;
+
+  }
+  .futures__block p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: #ffffff;
+    padding: 2%;
+  }
+}
+@media (max-width: 1080px) {
+  .futures .futures__conteiner {
+    width: 96%;
+  }
+  .futures .futures__block {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .futures .futures__block p {
+    font-size: 16px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 600px){
+  .futures{
+    .futures__conteiner {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .futures__block {
+      border: none;
+      border-bottom: 1px solid white;
+      padding: 0%;
+    }
+    .centr {
+      grid-column: 1/3;
+    }
+  }
+}

@@ -1,0 +1,289 @@
+.footer {
+  &__top {
+    width: 80%;
+    margin: 42px auto;
+    display: grid;
+    grid-template-columns: 32% 40% 25%;
+    gap: 1em;
+    max-width: 1700px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__lorem {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #c6cbcd;
+    padding: 3% 0;
+  }
+  &__sumFolowers {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2d3033;
+    padding: 3% 0;
+  }
+  &__iconsBlock {
+    border-top: 1px solid #c6cbcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__iconsText {
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #c6cbcd;
+    padding: 3% 0;
+  }
+  &__icons {
+    text-align: end;
+  }
+  &__icons a {
+    width: auto;
+    text-decoration: none;
+  }
+  &__icons picture {
+    width: auto;
+    text-decoration: none;
+  }
+  &__input {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    border: 1px solid #c6cbcd;
+  }
+  &__input input {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #c6cbcd;
+    border: none;
+    outline: none;
+  }
+  &__input button {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #95e1d3;
+    border: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__input label:hover {
+    background: #87d2c4;
+  }
+  &__input label:active {
+    background: #5c958a;
+  }
+  .footer__centr a {
+    text-decoration: none;
+  }
+
+  &__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2d3033;
+    height: 100px;
+  }
+
+  &__card {
+    display: flex;
+    margin-top: 20px;
+  }
+  &__cardone {
+    display: flex;
+  }
+  &__centr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card__right {
+    margin-left: 5%;
+  }
+  .card__lorem {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2d3033;
+  }
+  .card__date {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    color: #2d3033;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &__grid img {
+    width: 100%;
+  }
+  &__allPhoto {
+    display: flex;
+    align-items: center;
+    height: 10%;
+  }
+  &__allPhoto a {
+    color: #2d3033;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  &__buttom {
+    width: 80%;
+    border-top: 1px solid #c6cbcd;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #2d3033;
+  }
+}
+@media (max-width: 1080px) {
+  .footer {
+    &__top {
+      width: 96%;
+    }
+    &__lorem {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__sumFolowers {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &__iconsText {
+      font-size: 12px;
+      line-height: 14px;
+    }
+    &__input {
+      height: 37px;
+    }
+    &__input input {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__input button {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__title {
+      height: 60px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .card__lorem {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .card__date {
+      font-size: 12px;
+      line-height: 14px;
+    }
+    .card__left img {
+      width: 100%;
+    }
+    &__allPhoto a {
+      font-size: 12px;
+      line-height: 14px;
+    }
+    &__buttom {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+}
+@media (max-width: 700px){
+  .footer{
+    &__top{
+      grid-template-columns: repeat(1, 1fr);
+      width: 80%;
+      margin: 30px auto;
+    }
+    &__title{
+      justify-content: center;
+    }
+    &__lorem{
+      text-align: center;
+    }
+    &__sumFolowers{
+      justify-content: center;
+    }
+    &__iconsBlock{
+      margin-top: 10px;
+    }
+    &__input{
+      flex-direction: column;
+      border: none;
+      height: 100px;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    &__input input{
+      width: 100%;
+      border: 1px solid #C6CBCD;
+      height: 40px;
+    }
+    &__input button{
+      width: 100%;
+      height: 40px;
+    }
+  }
+}

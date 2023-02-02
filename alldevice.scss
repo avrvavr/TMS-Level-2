@@ -1,0 +1,71 @@
+.alldevice {
+  height: 868px;
+  margin-top: 90px;
+  background-image: url("./photo/alldevice/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2%;
+  .alldevice__subtitle {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0%;
+  }
+  .alldevice__desktop {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    #second_photo {
+      position: absolute;
+      top: -10px;
+      transform: translateX(-78%);
+    }
+    #third_photo {
+      position: absolute;
+      top: 260px;
+      transform: translateX(-70%);
+    }
+    #four_photo {
+      position: absolute;
+      top: 260px;
+      transform: translateX(-70%);
+    }
+  }
+}
+@media (max-width: 900px){
+  .alldevice{
+    height: 600px;
+ 
+  .alldevice__desktop{
+    #third_photo {
+      top: 160px;
+      transform: translateX(-70%);
+    }
+    #four_photo {
+      top: 160px;
+      transform: translateX(-70%);
+    }
+  }
+}
+}
+@media (max-width: 600px){
+  .alldevice{
+    height: 400px;
+    
+ 
+  .alldevice__desktop{
+    width: 100%;
+    #second_photo {
+      transform: translateX(-98%);
+    }
+    #third_photo {
+      top: 80px;
+      transform: translateX(-90%);
+    }
+    #four_photo {
+      top: 80px;
+      transform: translateX(-90%);
+    }
+  }
+}
+}

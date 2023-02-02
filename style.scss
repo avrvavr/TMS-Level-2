@@ -1,0 +1,83 @@
+@import url("header.scss");
+@import url("about.scss");
+@import url("futures.scss");
+@import url("amazservice.scss");
+@import url("alldevice.scss");
+@import url("service.scss");
+@import url("review.scss");
+@import url("ourteam.scss");
+@import url("partners.scss");
+@import url("ourWorks.scss");
+@import url("happyClients.scss");
+@import url("ourStories.scss");
+@import url("map.scss");
+@import url("footer.scss");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 3400px;
+}
+.subtitle-elem {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2d3033;
+  margin: 0% auto;
+  padding: 1%;
+}
+.title-elem {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d3033;
+  padding: 2%;
+}
+.lorem__elem {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+.separator {
+  margin-top: 20px;
+}
+@media (max-width:1080px){
+.subtitle-elem {
+  font-size: 24px;
+  line-height: 35px;
+}
+.title-elem {
+  font-size: 24px;
+  line-height: 28px;
+}
+.lorem__elem {
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+}
+}

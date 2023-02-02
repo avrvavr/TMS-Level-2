@@ -1,0 +1,35 @@
+.map {
+  text-align: center;
+  min-height: 231px;
+  background-image: url("./photo/map/bg.png");
+  padding: 2%;
+  &__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #f38281;
+    padding: 1%;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 1080px) {
+  .map {
+    min-height: auto;
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+}
+@media (max-width: 800px){
+  .map{
+    padding: 6% 0;
+  }
+}

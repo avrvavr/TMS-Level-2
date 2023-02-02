@@ -1,0 +1,110 @@
+.happyClients {
+  width: 100%;
+  min-height: 923px;
+  background-image: url("./photo/happyClients/happyClients_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 84px;
+  .happyClients__block {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    max-width: 1600px;
+  }
+  .happyClients__block__elem {
+    display: flex;
+    height: 285px;
+    justify-content: space-between;
+  }
+  .happyClients__block__elem-right {
+    width: 70%;
+  }
+  .happyClients__name {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2d3033;
+    padding: 2% 0%;
+  }
+  .happyClients__jobname {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2d3033;
+  }
+  .happyClients__separator {
+    margin-top: 32px;
+  }
+  .happyClients__coment {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2d3033;
+    margin-top: 30px;
+    padding: 4% 0%;
+  }
+}
+@media (max-width: 1080px) {
+  .happyClients {
+    min-height: auto;
+    .happyClients__block {
+      width: 96%;
+      gap: 3em;
+    }
+    .happyClients__name {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .happyClients__jobname {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .happyClients__coment {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+@media (max-width: 800px){
+  .happyClients{
+    padding: 2%;
+    .happyClients__block{
+      grid-template-columns: repeat(1, 1fr);
+      width: 90%;
+    }
+    .happyClients__block__elem{
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+    }
+    .happyClients__block__elem-right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .happyClients__separator{
+      margin-top: 10px;
+    }
+    .happyClients__coment{
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
