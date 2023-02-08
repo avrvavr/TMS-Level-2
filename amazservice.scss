@@ -16,7 +16,7 @@
       width: 40%;
       text-align: start;
     }
-    .block__elem-rigth__jobtitle {
+    .block__elem-right__jobtitle {
       font-family: "Raleway";
       font-style: normal;
       font-weight: 700;
@@ -28,7 +28,7 @@
       color: #2d3033;
       padding: 2%;
     }
-    .block__elem-rigth__title {
+    .block__elem-right__title {
       font-family: "Raleway";
       font-style: normal;
       font-weight: 400;
@@ -49,7 +49,7 @@
     width: 96%;
     margin: 60px auto;
   }
-  .block__elem-rigth {
+  .block__elem-right {
     margin-left: 10%;
   }
 }
@@ -67,11 +67,11 @@
 @media (max-width: 500px) {
   .amazservice {
     .amazservice__block {
-      .block__elem-rigth__title {
+      .block__elem-right__title {
         font-size: 14px;
         line-height: 16px;
       }
-      .block__elem-rigth__jobtitle {
+      .block__elem-right__jobtitle {
         font-size: 18px;
         line-height: 21px;
       }

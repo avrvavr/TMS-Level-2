@@ -575,7 +575,7 @@ header:after {
   text-align: start;
 }
 
-.amazservice .amazservice__block .block__elem-rigth__jobtitle {
+.amazservice .amazservice__block .block__elem-right__jobtitle {
   text-transform: uppercase;
   color: #2d3033;
   align-items: center;
@@ -588,7 +588,7 @@ header:after {
   display: flex;
 }
 
-.amazservice .amazservice__block .block__elem-rigth__title {
+.amazservice .amazservice__block .block__elem-right__title {
   color: #2d3033;
   align-items: center;
   padding: 2%;
@@ -610,7 +610,7 @@ header:after {
     margin: 60px auto;
   }
 
-  .block__elem-rigth {
+  .block__elem-right {
     margin-left: 10%;
   }
 }
@@ -630,12 +630,12 @@ header:after {
 }
 
 @media (max-width: 500px) {
-  .amazservice .amazservice__block .block__elem-rigth__title {
+  .amazservice .amazservice__block .block__elem-right__title {
     font-size: 14px;
     line-height: 16px;
   }
 
-  .amazservice .amazservice__block .block__elem-rigth__jobtitle {
+  .amazservice .amazservice__block .block__elem-right__jobtitle {
     font-size: 18px;
     line-height: 21px;
   }
