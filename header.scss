@@ -1,6 +1,6 @@
 :root{
   --h1-text: 144px;
-  --h1-color: white;
+  --text-color: white;
 }
 header {
   width: 100%;
@@ -51,7 +51,7 @@ header:after {
   width: 40px;
   height: 4px;
   background-color: white;
-  color: white;
+  color: var(--text-color);
   position: absolute;
   right: 5px;
 }
@@ -86,7 +86,7 @@ header:after {
 }
 .menu a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 .menu a:hover {
   border-bottom: 1px solid #f4bf87;
@@ -100,7 +100,7 @@ header:after {
   justify-content: center;
   z-index: 2;
   margin-top: 70px;
-  color: #ffffff;
+  color: var(--text-color);
   p {
     font-family: "Kaushan Script";
     font-style: normal;
@@ -116,8 +116,7 @@ header:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  // color: #ffffff;
-  color: var(--h1-color);
+  color: var(--text-color);
   z-index: 2;
   max-width: 1350px;
 
@@ -177,7 +176,7 @@ header:after {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--text-color);
     z-index: 2;
   }
 }
@@ -229,7 +228,7 @@ header:after {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--text-color);
     width: 100%;
     height: 100%;
   }

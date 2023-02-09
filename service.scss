@@ -32,7 +32,7 @@
       align-items: center;
       justify-content: center;
       text-transform: uppercase;
-      color: #2d3033;
+      color: var(--basic-color);
     }
     .accordion_block__lor {
       font-family: "Raleway";
@@ -42,7 +42,7 @@
       line-height: 21px;
       display: flex;
       align-items: center;
-      color: #2d3033;
+      color: var(--basic-color);
     }
   }
 }

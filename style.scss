@@ -17,6 +17,9 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --basic-color: #2d3033;
+}
 body{
   max-width: 3400px;
 }
@@ -30,7 +33,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #2d3033;
+  color: var(--basic-color);
   margin: 0% auto;
   padding: 1%;
 }
@@ -45,7 +48,7 @@ body{
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   padding: 2%;
 }
 .lorem__elem {
@@ -58,7 +61,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #000000;
+  color: var(--basic-color);
   padding: 2%;
   width: 80%;
   margin: 0 auto;

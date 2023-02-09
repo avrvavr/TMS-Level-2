@@ -1,6 +1,6 @@
 :root {
   --h1-text: 144px;
-  --h1-color: white;
+  --text-color: white;
 }
 
 header {
@@ -50,7 +50,7 @@ header:after {
 .menu_burger span {
   width: 40px;
   height: 4px;
-  color: #fff;
+  color: var(--text-color);
   background-color: #fff;
   position: absolute;
   right: 5px;
@@ -91,7 +91,7 @@ header:after {
 }
 
 .menu a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ header:after {
 .header__subtitle {
   width: 80%;
   z-index: 2;
-  color: #fff;
+  color: var(--text-color);
   justify-content: center;
   align-items: center;
   margin: 70px auto 0;
@@ -121,7 +121,7 @@ header:after {
 
 .header__title {
   width: 70%;
-  color: var(--h1-color);
+  color: var(--text-color);
   z-index: 2;
   max-width: 1350px;
   justify-content: center;
@@ -179,7 +179,7 @@ header:after {
   width: 100%;
   height: 100%;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--text-color);
   z-index: 2;
   justify-content: center;
   align-items: center;
@@ -238,7 +238,7 @@ header:after {
 
 .header__navigation .navText {
   text-transform: uppercase;
-  color: #fff;
+  color: var(--text-color);
   width: 100%;
   height: 100%;
   align-items: center;
@@ -485,7 +485,7 @@ header:after {
 
 .amazservice .amazservice__block .block__elem-right__jobtitle {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   padding: 2%;
   font-family: Raleway;
@@ -497,7 +497,7 @@ header:after {
 }
 
 .amazservice .amazservice__block .block__elem-right__title {
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   padding: 2%;
   font-family: Raleway;
@@ -581,7 +581,7 @@ header:after {
 .service .service__block .accordion_block__name {
   width: 80%;
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   justify-content: center;
   align-items: center;
   font-family: Raleway;
@@ -593,7 +593,7 @@ header:after {
 }
 
 .service .service__block .accordion_block__lor {
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   font-family: Raleway;
   font-size: 18px;
@@ -681,7 +681,7 @@ header:after {
 }
 
 .reviews .reviews_block .text__block__name {
-  color: #000;
+  color: var(--basic-color);
   margin-left: 40px;
   font-family: Kaushan Script;
   font-size: 30px;
@@ -802,7 +802,7 @@ header:after {
 
 .ourteam .ourteam__subname {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   justify-content: center;
   align-items: center;
   padding: 3%;
@@ -816,7 +816,7 @@ header:after {
 
 .ourteam .ourteam__jobtitle {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   justify-content: center;
   align-items: center;
   padding: 3%;
@@ -1082,7 +1082,7 @@ header:after {
 
 .happyClients .happyClients__name {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   padding: 2% 0%;
   font-family: Raleway;
@@ -1198,7 +1198,7 @@ header:after {
 
 .ourStories__name {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   font-family: Raleway;
   font-style: normal;
 }
@@ -1213,7 +1213,7 @@ header:after {
 }
 
 .ourStories .name__subtitle {
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   font-size: 18px;
   font-weight: 400;
@@ -1352,7 +1352,7 @@ header:after {
 
 .footer__sumFolowers {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   padding: 3% 0;
   font-family: Raleway;
@@ -1443,7 +1443,7 @@ header:after {
 
 .footer__title {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   height: 100px;
   align-items: center;
   font-family: Raleway;
@@ -1475,7 +1475,7 @@ header:after {
 
 .footer .card__lorem {
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   font-family: Raleway;
   font-size: 18px;
@@ -1486,7 +1486,7 @@ header:after {
 }
 
 .footer .card__date {
-  color: #2d3033;
+  color: var(--basic-color);
   align-items: center;
   padding: 2%;
   font-family: Raleway;
@@ -1527,7 +1527,7 @@ header:after {
   width: 80%;
   text-align: center;
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   border-top: 1px solid #c6cbcd;
   margin: 0 auto;
   padding: 1%;
@@ -1808,13 +1808,17 @@ header:after {
   padding: 0;
 }
 
+:root {
+  --basic-color: #2d3033;
+}
+
 body {
   max-width: 3400px;
 }
 
 .subtitle-elem {
   text-align: center;
-  color: #2d3033;
+  color: var(--basic-color);
   justify-content: center;
   align-items: center;
   margin: 0% auto;
@@ -1830,7 +1834,7 @@ body {
 .title-elem {
   text-align: center;
   text-transform: uppercase;
-  color: #2d3033;
+  color: var(--basic-color);
   justify-content: center;
   align-items: center;
   padding: 2%;
@@ -1844,7 +1848,7 @@ body {
 
 .lorem__elem {
   text-align: center;
-  color: #000;
+  color: var(--basic-color);
   width: 80%;
   justify-content: center;
   align-items: center;

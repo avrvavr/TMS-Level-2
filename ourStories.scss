@@ -18,7 +18,7 @@
     font-family: "Raleway";
     font-style: normal;
     text-transform: uppercase;
-    color: #2d3033;
+    color: var(--basic-color);
   }
   .name__title {
     font-weight: 700;
@@ -34,7 +34,7 @@
     line-height: 21px;
     display: flex;
     align-items: center;
-    color: #2d3033;
+    color: var(--basic-color);
   }
   .ourStories__block {
     display: grid;
