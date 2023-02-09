@@ -1,3 +1,7 @@
+:root{
+  --h1-text: 144px;
+  --h1-color: white;
+}
 header {
   width: 100%;
   background: url("/photo/header_background.png") top center no-repeat;
@@ -112,7 +116,8 @@ header:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  // color: #ffffff;
+  color: var(--h1-color);
   z-index: 2;
   max-width: 1350px;
 
@@ -121,6 +126,7 @@ header:after {
     font-style: normal;
     font-weight: 700;
     font-size: 144px;
+    font-size: var(--h1-text);
     line-height: 176px;
     display: flex;
     align-items: center;
